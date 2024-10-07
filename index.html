@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Editkaro.in Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Editkaro.in</div>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Editkaro.in</h1>
+        <p>Your trusted partner for professional video editing and social media marketing.</p>
+        <a href="#portfolio" class="explore-button">Explore Our Work</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to Editkaro.in! We are a creative agency specializing in video editing and social media marketing. Our team is dedicated to bringing your ideas to life, delivering quality edits for short-form videos, gaming content, eCommerce ads, and much more. We combine technical expertise with a passion for storytelling to help your content shine.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="portfolio-title">Our Portfolio</h2>
+        <div class="filter-buttons">
+            <button onclick="filterVideos('all')" class="filter-button active">All</button>
+            <button onclick="filterVideos('short')" class="filter-button">Short-form Videos</button>
+            <button onclick="filterVideos('gaming')" class="filter-button">Gaming Videos</button>
+            <button onclick="filterVideos('long')" class="filter-button">Long-form Videos</button>
+            <button onclick="filterVideos('football')" class="filter-button">Football Edits</button>
+            <button onclick="filterVideos('ecommerceads')" class="filter-button">eCommerce Ads</button>
+            <button onclick="filterVideos('documentary')" class="filter-button">Documentary Style</button>
+            <button onclick="filterVideos('colorgrading')" class="filter-button">Color Grading</button>
+            <button onclick="filterVideos('anime')" class="filter-button">ANime Videos</button>
+            <button onclick="filterVideos('ads')" class="filter-button">Ads</button>
+        </div>
+        <div id="video-grid">
+            <div class="video-item" data-category="short">
+                <video src="short Form/YT Shorts 1920x1080 Content.mp4" controls></video>
+                <p>Short-form Video 1</p>
+            </div>
+            <div class="video-item" data-category="short">
+                <video src="short Form/0510_1.mp4" controls></video>
+                <p>Short-form Video 2</p>
+            </div>
+            <div class="video-item" data-category="short">
+                <video src="short Form/Comp 1_6_2.mp4" controls></video>
+                <p>Short-form Video 3</p>
+            </div>
+            <div class="video-item" data-category="short">
+                <video src="short Form/Final result 02.mp4" controls></video>
+                <p>Short-form Video 4</p>
+            </div>
+            <div class="video-item" data-category="gaming">
+                <video src="Gaming Video/Gaming Edited YT Video.mp4" controls></video>
+                <p>Gaming Video 1</p>
+            </div>
+            <div class="video-item" data-category="long">
+                <video src="Long Video/Talking head.mp4" controls></video>
+                <p>Long-form Video 1</p>
+            </div>
+            <div class="video-item" data-category="long">
+                <video src="Long Video/TRIAL SAMPLE .mp4" controls></video>
+                <p>Long-form Video 2</p>
+            </div>
+            <div class="video-item" data-category="long">
+                <video src="Long Video/Ruhi Ohama Before VS After.mp4" controls></video>
+                <p>Long-form Video 3</p>
+            </div>
+            <div class="video-item" data-category="long">
+                <video src="Long Video/Long Video Youtube Format_.mp4" controls></video>
+                <p>Long-form Video 4</p>
+            </div>
+            <div class="video-item" data-category="football">
+                <video src="Football Edits/Ronaldo vs messi.mp4" controls></video>
+                <p>Football edits 1</p>
+            </div>
+            <div class="video-item" data-category="football">
+                <video src="Football Edits/Ronaldo 3.mp4" controls></video>
+                <p>Football edits 2</p>
+            </div>
+            <div class="video-item" data-category="ecommerceads">
+                <video src="Ecommerce Ads/2nd Mockup Edit.mp4" controls></video>
+                <p>eCommerce Ads 1</p>
+            </div>
+            <div class="video-item" data-category="ecommerceads">
+                <video src="Ecommerce Ads/1st Mockup Edit.mp4" controls></video>
+                <p>eCommerce Ads 2</p>
+            </div>
+            <div class="video-item" data-category="ecommerceads">
+                <video src="Ecommerce Ads/3rd Mockup Edit.mp4" controls></video>
+                <p>eCommerce Ads 3</p>
+            </div>
+            <div class="video-item" data-category="documentary">
+                <video src="Documentary Style/Mohak Mangal Documnetary Style 2.mp4" controls></video>
+                <p>Documentary Style videos 1</p>
+            </div>
+            <div class="video-item" data-category="documentary">
+                <video src="Documentary Style/Self Improvement.mp4" controls></video>
+                <p>Documentary Style videos 2</p>
+            </div>
+            <div class="video-item" data-category="colorgrading">
+                <video src="Color Grading/Color Grading.mp4" controls></video>
+                <p>Color Grading Video 1</p>
+            </div>
+            <div class="video-item" data-category="anime">
+                <video src="Anime Long Form/Comp 1_1.mp4" controls></video>
+                <p>Anime Video 1</p>
+            </div>
+            <div class="video-item" data-category="anime">
+                <video src="Anime Long Form/Comp 1_2-2x-RIFE-RIFE4.0-47.95205fps_1.mp4" controls></video>
+                <p>Anime Video 2</p>
+            </div>
+            <div class="video-item" data-category="ads">
+                <video src="ADs/Coca Cola Landing Page AD.mp4" controls></video>
+                <p>Ads 1</p>
+            </div>
+            <div class="video-item" data-category="ads">
+                <video src="ADs/Gta V Game Maza Bank_.mp4" controls></video>
+                <p>Ads 2</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to work with us, feel free to reach out using the form below.</p>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Editkaro.in</h3>
+                <p>Your go-to agency for professional video editing and social media marketing.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><img src="Icons/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="Icons/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="Icons/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Editkaro.in. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
