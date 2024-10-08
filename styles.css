@@ -411,37 +411,44 @@ footer {
 
     /* Hero section adjustments */
     #hero {
-        padding: 40px 10px;
-        min-height: 80vh; /* Ensure hero section takes up the full screen */
+        padding: 20px 10px;
+        min-height: 60vh; /* Ensure hero section takes up the full screen */
     }
 
     #hero h1 {
-        font-size: 1.8em;
+        font-size: 1.5em;     /* Reduce font size */
+        line-height: 1.2em;   /* Decrease line height to fit more text */
+        margin-bottom: 10px;  /* Reduce space below heading */
     }
 
     #hero p {
-        font-size: 1.1em;
+        font-size: 1em;       /* Reduce font size */
+        line-height: 1.2em;   /* Decrease line height */
+        margin-bottom: 15px;  /* Reduce space below paragraph */
     }
 
     .explore-button {
-        font-size: 1.em;
-        padding: 10px 20px;
+        font-size: 0.9em;
+        padding: 8px 15px;
     }
 
     /* About section adjustments */
     .about-section {
-        padding: 30px 10px;
+        padding: 20px 10px;
         text-align: left;
         font-size: 1em;
         min-height: auto; /* Ensure full visibility */
     }
 
     .about-section h2 {
-        font-size: 1.8em;
+        font-size: 1.5em;     /* Reduce font size */
+        line-height: 1.2em;
+        margin-bottom: 10px;
     }
 
     .about-section p {
-        font-size: 1em;
+        font-size: 0.9em;     /* Reduce font size */
+        line-height: 1.3em;   /* Adjust line height */
     }
 
     /* Portfolio section adjustments */
@@ -521,35 +528,39 @@ footer {
 
     /* Hero section */
     #hero {
-        padding: 30px 5px;
-        min-height: 75vh;
+        padding: 15px 5px;
+        min-height: 50vh;
     }
 
     #hero h1 {
-        font-size: 1.6em;
+        font-size: 1.4em;    /* Reduce font size */
+        line-height: 1.2em;  /* Decrease line height */
     }
 
     #hero p {
-        font-size: 1em;
+        font-size: 0.9em;    /* Reduce font size further */
+        line-height: 1.2em;  /* Decrease line height */
     }
 
     .explore-button {
-        font-size: 0.9em;
-        padding: 8px 15px;
+        font-size: 0.8em;
+        padding: 7px 12px;
     }
 
     /* About section */
     .about-section {
-        padding: 25px 5px;
+        padding: 15px 5px;
         min-height: auto;
     }
 
     .about-section h2 {
-        font-size: 1.6em;
+        font-size: 1.4em;    /* Reduce font size */
+        line-height: 1.2em;  /* Decrease line height */
     }
 
     .about-section p {
-        font-size: 0.9em;
+        font-size: 0.85em;   /* Reduce font size */
+        line-height: 1.2em;
     }
 
     /* Portfolio section */
