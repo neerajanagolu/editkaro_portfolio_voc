@@ -411,33 +411,33 @@ footer {
 
     /* Hero section adjustments */
     #hero {
-        padding: 60px 10px;
-        min-height: 100vh; /* Ensure hero section takes up the full screen */
+        padding: 40px 10px;
+        min-height: 80vh; /* Ensure hero section takes up the full screen */
     }
 
     #hero h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #hero p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .explore-button {
-        font-size: 1.1em;
-        padding: 12px 25px;
+        font-size: 1.em;
+        padding: 10px 20px;
     }
 
     /* About section adjustments */
     .about-section {
-        padding: 40px 10px;
+        padding: 30px 10px;
         text-align: left;
         font-size: 1em;
-        min-height: 100vh; /* Ensure full visibility */
+        min-height: auto; /* Ensure full visibility */
     }
 
     .about-section h2 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .about-section p {
@@ -521,8 +521,8 @@ footer {
 
     /* Hero section */
     #hero {
-        padding: 50px 5px;
-        min-height: 100vh;
+        padding: 30px 5px;
+        min-height: 75vh;
     }
 
     #hero h1 {
@@ -530,18 +530,18 @@ footer {
     }
 
     #hero p {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .explore-button {
-        font-size: 1em;
-        padding: 10px 20px;
+        font-size: 0.9em;
+        padding: 8px 15px;
     }
 
     /* About section */
     .about-section {
-        padding: 30px 5px;
-        min-height: 100vh;
+        padding: 25px 5px;
+        min-height: auto;
     }
 
     .about-section h2 {
