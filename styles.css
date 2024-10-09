@@ -411,25 +411,29 @@ footer {
 
     /* Hero section adjustments */
     #hero {
-        padding: 20px 10px;
-        min-height: 60vh; /* Ensure hero section takes up the full screen */
+        padding: 10px 5px;        /* Further reduce padding */
+        height: 50vh;             /* Set fixed height to 50% of viewport height */
+        display: flex;            /* Use flexbox for better content alignment */
+        flex-direction: column;   /* Stack content vertically */
+        justify-content: center;  /* Vertically center the content */
+        align-items: center;      /* Horizontally center the content */
     }
 
     #hero h1 {
-        font-size: 1.5em;     /* Reduce font size */
+        font-size: 1.4em;     /* Reduce font size */
         line-height: 1.2em;   /* Decrease line height to fit more text */
-        margin-bottom: 10px;  /* Reduce space below heading */
+        margin-bottom: 5px;  /* Reduce space below heading */
     }
 
     #hero p {
-        font-size: 1em;       /* Reduce font size */
-        line-height: 1.2em;   /* Decrease line height */
-        margin-bottom: 15px;  /* Reduce space below paragraph */
+        font-size: 0.9em;       /* Reduce font size */
+        line-height: 1.1em;   /* Decrease line height */
+        margin-bottom: 10px;  /* Reduce space below paragraph */
     }
 
     .explore-button {
-        font-size: 0.9em;
-        padding: 8px 15px;
+        font-size: 0.85em;
+        padding: 6px 10px;
     }
 
     /* About section adjustments */
@@ -528,23 +532,23 @@ footer {
 
     /* Hero section */
     #hero {
-        padding: 15px 5px;
-        min-height: 50vh;
+        padding: 8px 5px;
+        min-height: 45vh;
     }
 
     #hero h1 {
-        font-size: 1.4em;    /* Reduce font size */
-        line-height: 1.2em;  /* Decrease line height */
+        font-size: 1.3em;    /* Reduce font size */
+        line-height: 1.1em;  /* Decrease line height */
     }
 
     #hero p {
-        font-size: 0.9em;    /* Reduce font size further */
-        line-height: 1.2em;  /* Decrease line height */
+        font-size: 0.85em;    /* Reduce font size further */
+        line-height: 1.1em;  /* Decrease line height */
     }
 
     .explore-button {
         font-size: 0.8em;
-        padding: 7px 12px;
+        padding: 5px 8px;
     }
 
     /* About section */
