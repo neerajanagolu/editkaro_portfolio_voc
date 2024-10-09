@@ -4,7 +4,7 @@ function filterVideos(category) {
     const buttons = document.querySelectorAll('.filter-button');
     buttons.forEach(button => button.classList.remove('active'));
 
-    const activeButton = Array.from(buttons).find(button => button.textContent.toLowerCase().includes(category === 'all' ? 'all' : category));
+    const activeButton = Array.from(buttons).find(button => button.dataset.category === category);
     if (activeButton) {
         activeButton.classList.add('active');
     }
