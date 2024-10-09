@@ -391,73 +391,69 @@ footer {
     }
 }
 
-/* Mobile adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
-    /* General layout adjustments */
     body {
-        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-x: hidden; 
     }
 
-    /* Header adjustments */
+ 
     header {
-        display: flex;             /* Flexbox for horizontal layout */
-        justify-content: space-between;  /* Distribute space between header elements */
-        align-items: center;       /* Vertically align items */
-        padding: 10px 5px;         /* Add some padding to ensure proper spacing */
-        flex-wrap: nowrap;         /* Prevent elements from wrapping to the next line */
+        display: flex;             
+        justify-content: space-between;  
+        align-items: center;       
+        padding: 10px 5px;         
+        flex-wrap: nowrap;         
     }
 
-    /* Logo */
+
     .header-logo {
-        max-width: 20%;            /* Keep the logo within a reasonable size */
+        max-width: 20%;           
     }
 
     .header-logo img {
-        width: 100%;               /* Ensure the logo image doesn't exceed its container */
-        height: auto;              /* Maintain the aspect ratio of the logo */
+        width: 100%;               
+        height: auto;              
     }
 
     nav {
-        display: flex;             /* Flexbox for horizontal layout */
-        gap: 10px;                 /* Space between navigation links */
+        display: flex;             
+        gap: 10px;                
     }
 
     nav a {
-        font-size: 0.9em;          /* Adjust font size for better readability */
-        padding: 5px 8px;          /* Add some padding around the links */
+        font-size: 0.9em;          
+        padding: 5px 8px;          
     }
 
-    /* Header buttons or icons (like menu, search, etc.) */
     .header-icons {
-        display: flex;             /* Horizontal alignment for header icons */
-        gap: 10px;                 /* Space between icons */
+        display: flex;             
+        gap: 10px;                
     }
 
     .header-icons button, .header-icons a {
-        font-size: 1em;            /* Adjust icon/button size */
-        padding: 5px;              /* Ensure the clickable area is large enough */
+        font-size: 1em;            
+        padding: 5px;             
     }
 
-    /* Hero section adjustments */
     #hero {
-        padding: 10px 5px;        /* Further reduce padding */
-        height: 50vh;             /* Set fixed height to 50% of viewport height */
-        display: flex;            /* Use flexbox for better content alignment */
-        flex-direction: column;   /* Stack content vertically */
-        justify-content: center;  /* Vertically center the content */
-        align-items: center;      /* Horizontally center the content */
+        padding: 10px 5px;        
+        height: 50vh;             
+        display: flex;            
+        flex-direction: column;   
+        justify-content: center;  
+        align-items: center;      
     }
 
     #hero h1 {
-        font-size: 1.4em;     /* Reduce font size */
-        line-height: 1.2em;   /* Decrease line height to fit more text */
-        margin-bottom: 5px;  /* Reduce space below heading */
+        font-size: 1.4em;    
+        line-height: 1.2em;   
+        margin-bottom: 5px;  
     }
 
     #hero p {
-        font-size: 0.9em;       /* Reduce font size */
-        line-height: 1.1em;   /* Decrease line height */
-        margin-bottom: 10px;  /* Reduce space below paragraph */
+        font-size: 0.9em;      
+        line-height: 1.1em;   
+        margin-bottom: 10px;  
     }
 
     .explore-button {
@@ -465,26 +461,24 @@ footer {
         padding: 6px 10px;
     }
 
-    /* About section adjustments */
     .about-section {
         padding: 20px 10px;
         text-align: left;
         font-size: 1em;
-        min-height: auto; /* Ensure full visibility */
+        min-height: auto; 
     }
 
     .about-section h2 {
-        font-size: 1.5em;     /* Reduce font size */
+        font-size: 1.5em;     
         line-height: 1.2em;
         margin-bottom: 10px;
     }
 
     .about-section p {
-        font-size: 0.9em;     /* Reduce font size */
-        line-height: 1.3em;   /* Adjust line height */
+        font-size: 0.9em;     
+        line-height: 1.3em;  
     }
 
-    /* Portfolio section adjustments */
     #portfolio {
         padding: 40px 10px;
     }
@@ -495,15 +489,14 @@ footer {
 
     .filter-buttons {
         flex-wrap: wrap;
-        gap: 10px; /* Add spacing for filter buttons */
+        gap: 10px; 
     }
 
     .video-item {
-        width: calc(100% - 20px); /* Ensure videos take up full width */
+        width: calc(100% - 20px); 
         margin-bottom: 20px;
     }
 
-    /* Contact section adjustments */
     #contact {
         padding: 40px 10px;
     }
@@ -528,7 +521,6 @@ footer {
         padding: 12px;
     }
 
-    /* Footer adjustments */
     footer {
         padding: 30px 10px;
     }
@@ -552,42 +544,37 @@ footer {
     }
 }
 
-/* Further adjustments for screens smaller than 480px */
 @media (max-width: 480px) {
-    /* Header adjustments */
     header {
-        padding: 8px 3px;          /* Further reduce padding for smaller screens */
+        padding: 8px 3px;         
     }
 
-    /* Logo */
     .header-logo {
-        max-width: 25%;            /* Slightly larger logo for smaller screens */
+        max-width: 25%;            
     }
 
     nav a {
-        font-size: 0.85em;         /* Reduce font size slightly */
-        padding: 4px 6px;          /* Adjust padding to fit better on small screens */
+        font-size: 0.85em;        
+        padding: 4px 6px;          
     }
 
-    /* Header buttons or icons (like menu, search, etc.) */
     .header-icons button, .header-icons a {
-        font-size: 0.9em;          /* Scale down the button/icon size */
+        font-size: 0.9em;          
     }
 
-    /* Hero section */
     #hero {
         padding: 8px 5px;
         min-height: 45vh;
     }
 
     #hero h1 {
-        font-size: 1.3em;    /* Reduce font size */
-        line-height: 1.1em;  /* Decrease line height */
+        font-size: 1.3em;    
+        line-height: 1.1em;  
     }
 
     #hero p {
-        font-size: 0.85em;    /* Reduce font size further */
-        line-height: 1.1em;  /* Decrease line height */
+        font-size: 0.85em;    
+        line-height: 1.1em;  
     }
 
     .explore-button {
@@ -595,23 +582,21 @@ footer {
         padding: 5px 8px;
     }
 
-    /* About section */
     .about-section {
         padding: 15px 5px;
         min-height: auto;
     }
 
     .about-section h2 {
-        font-size: 1.4em;    /* Reduce font size */
-        line-height: 1.2em;  /* Decrease line height */
+        font-size: 1.4em;    
+        line-height: 1.2em;  
     }
 
     .about-section p {
-        font-size: 0.85em;   /* Reduce font size */
+        font-size: 0.85em;   
         line-height: 1.2em;
     }
 
-    /* Portfolio section */
     #portfolio {
         padding: 30px 5px;
     }
@@ -630,10 +615,9 @@ footer {
     }
 
     .video-item {
-        width: 100%; /* Full width on small screens */
+        width: 100%; 
     }
 
-    /* Contact section */
     #contact {
         padding: 30px 5px;
     }
@@ -653,7 +637,6 @@ footer {
         padding: 10px;
     }
 
-    /* Footer section */
     footer {
         padding: 20px 5px;
     }
