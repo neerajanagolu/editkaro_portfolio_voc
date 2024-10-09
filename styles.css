@@ -400,13 +400,42 @@ footer {
 
     /* Header adjustments */
     header {
-        flex-direction: column;
-        padding: 15px;
+        display: flex;             /* Flexbox for horizontal layout */
+        justify-content: space-between;  /* Distribute space between header elements */
+        align-items: center;       /* Vertically align items */
+        padding: 10px 5px;         /* Add some padding to ensure proper spacing */
+        flex-wrap: nowrap;         /* Prevent elements from wrapping to the next line */
     }
 
-    nav ul {
-        flex-direction: column; /* Stack menu items */
-        gap: 10px;
+    /* Logo */
+    .header-logo {
+        max-width: 20%;            /* Keep the logo within a reasonable size */
+    }
+
+    .header-logo img {
+        width: 100%;               /* Ensure the logo image doesn't exceed its container */
+        height: auto;              /* Maintain the aspect ratio of the logo */
+    }
+
+    nav {
+        display: flex;             /* Flexbox for horizontal layout */
+        gap: 10px;                 /* Space between navigation links */
+    }
+
+    nav a {
+        font-size: 0.9em;          /* Adjust font size for better readability */
+        padding: 5px 8px;          /* Add some padding around the links */
+    }
+
+    /* Header buttons or icons (like menu, search, etc.) */
+    .header-icons {
+        display: flex;             /* Horizontal alignment for header icons */
+        gap: 10px;                 /* Space between icons */
+    }
+
+    .header-icons button, .header-icons a {
+        font-size: 1em;            /* Adjust icon/button size */
+        padding: 5px;              /* Ensure the clickable area is large enough */
     }
 
     /* Hero section adjustments */
@@ -527,7 +556,22 @@ footer {
 @media (max-width: 480px) {
     /* Header adjustments */
     header {
-        padding: 10px;
+        padding: 8px 3px;          /* Further reduce padding for smaller screens */
+    }
+
+    /* Logo */
+    .header-logo {
+        max-width: 25%;            /* Slightly larger logo for smaller screens */
+    }
+
+    nav a {
+        font-size: 0.85em;         /* Reduce font size slightly */
+        padding: 4px 6px;          /* Adjust padding to fit better on small screens */
+    }
+
+    /* Header buttons or icons (like menu, search, etc.) */
+    .header-icons button, .header-icons a {
+        font-size: 0.9em;          /* Scale down the button/icon size */
     }
 
     /* Hero section */
